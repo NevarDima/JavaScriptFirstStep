@@ -1,0 +1,17 @@
+{
+  "name": "JavaScriptFirstStep",
+  "version": "1.0.0",
+  "scripts": {
+    "hello": "node ./hello.js",
+    "path": "node ./path.js",
+    "process": "node ./proccess.js",
+    "file-system": "node ./file-system.js",
+    "fs-task": "cross-env TEXT='1 2 3 4 5 some words' node ./fs-task.js",
+    "os": "node ./os.js",
+    "events": "cross-env MESSAGE='Some message for example' node ./events.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3"
+  }
+}
