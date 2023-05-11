@@ -5,8 +5,6 @@
 file-system.js,a/4/a4dd2f1f69c8bfd07a42416ba62e719d3c3fe4ae
 ;
 proccess.js,8/c/8c4150915347e34c48661bfa99053978b8036f89
-4
-.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 :
 
 fs-task.js,6/b/6bbb4a484b6eb159fe1d815ec9a2c02fcbb592fe
@@ -14,3 +12,7 @@ fs-task.js,6/b/6bbb4a484b6eb159fe1d815ec9a2c02fcbb592fe
 os.js,b/2/b2f69019f549f497a4f441fb749771c368ac5141
 9
 	events.js,6/4/64695925cb1a50d4fd68399136d528440e359b38
+8
+hello.js,2/0/2048013924c8c71d42af4197cea8b89e9ae00716
+G
+JavaScriptFirstStep.iml,6/5/654010ccbed076b705f33f21ba58c78e2ccad324
