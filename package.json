@@ -10,7 +10,8 @@
     "os": "node ./os.js",
     "events": "cross-env MESSAGE='Some message for example' node ./events.js",
     "stream": "node ./stream.js",
-    "http-server": "nodemon http-server.js"
+    "http-server": "nodemon ./http-server.js",
+    "index": "nodemon index.js"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
