@@ -8,7 +8,9 @@
     "file-system": "node ./file-system.js",
     "fs-task": "cross-env TEXT='1 2 3 4 5 some words' node ./fs-task.js",
     "os": "node ./os.js",
-    "events": "cross-env MESSAGE='Some message for example' node ./events.js"
+    "events": "cross-env MESSAGE='Some message for example' node ./events.js",
+    "stream": "node ./stream.js",
+    "index.js": "node ./index.js"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
