@@ -18,7 +18,6 @@ module.exports = class Application{
             Object.keys(endpoint).forEach((method) => {
                 this.emitter.on(this._getRouteMask(path, method), (req, res) => {
                     const handler = endpoint[method]
-                    this.middlewares.forEach(middleware => middleware(req, res))
                     handler(req, res)
                 })
             })
@@ -40,7 +39,8 @@ module.exports = class Application{
                 if(body){
                     req.body = JSON.parse(body)
                 }
-                const emitted = this.emitter.emit(this._getRouteMask(req.url, req.method), req, res)
+                this.middlewares.forEach(middleware => middleware(req, res))
+                const emitted = this.emitter.emit(this._getRouteMask(req.pathname, req.method), req, res)
                 if(!emitted){
                     res.end()
                 }
